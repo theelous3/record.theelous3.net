@@ -439,6 +439,8 @@ aaaaaaaaaaaaaaaaaaaaaand that’s it! Congrats on making it through!
 
 ### Step eleven - using the server
 
+You are ready to adventure!
+
 **Important!**
 
 **If you used Option nine(a) (Self-Signed):**
