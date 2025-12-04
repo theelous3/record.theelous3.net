@@ -1,0 +1,41 @@
+:root {
+  /* light mode */
+  --theme: #ecebeb;        /* page background */
+  --entry: #ededed;        /* card / post background */
+  --primary: #202020;      /* main accent (links, buttons) */
+  --secondary: #657b83;    /* secondary text */
+  --tertiary: #ffffff;     /* subtle UI bits */
+  --content: #073642;      /* body text */
+  --border: #4fe6b3;
+  --code-bg: #f0f0f0;
+  --hljs-bg: #002b36;
+}
+body {
+  background: var(--theme) !important;
+}
+
+/* Dark mode overrides  */
+:root[data-theme="dark"] {
+  --theme: #1a1a1a;
+  --entry: #303030;
+  --primary: #e0e0e0;
+  --secondary: #bdbdbd;
+  --tertiary: #2e2f2f;
+  --content: #d2d2d2;
+  --border: #674744;
+  --code-bg: #252525;
+  --code-block-bg: #0d0d0d;
+}
+
+/*
+:root[data-theme="dark"] {
+  --theme: #002b36;
+  --entry: #073642;
+  --primary: #b58900;
+  --secondary: #93a1a1;
+  --tertiary: #586e75;
+  --content: #eee8d5;
+  --border: #073642;
+  --code-bg: #073642;
+  --code-block-bg: #002b36;
+} */

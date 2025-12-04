@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Code on theelous3&#39;s record</title>
+    <link>https://record.theelous3.net/tags/code/</link>
+    <description>Recent content in Code on theelous3&#39;s record</description>
+    <image>
+      <title>theelous3&#39;s record</title>
+      <url>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 04 Dec 2017 13:21:01 +0000</lastBuildDate>
+    <atom:link href="https://record.theelous3.net/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overteaching - an error</title>
+      <link>https://record.theelous3.net/posts/python_for_teaching/</link>
+      <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
+      <guid>https://record.theelous3.net/posts/python_for_teaching/</guid>
+      <description>Choosing the right level of abstraction to work at is important.</description>
+    </item>
+    <item>
+      <title>Wtf is self (in python)</title>
+      <link>https://record.theelous3.net/posts/wtf_is_self/</link>
+      <pubDate>Sat, 19 Aug 2017 16:35:44 +0000</pubDate>
+      <guid>https://record.theelous3.net/posts/wtf_is_self/</guid>
+      <description>From no-idea to advanced understanding in one short page. </description>
+    </item>
+    <item>
+      <title>Concurrency in python, a primer.</title>
+      <link>https://record.theelous3.net/posts/python_concurrency_primer/</link>
+      <pubDate>Fri, 02 Jun 2017 18:49:24 +0000</pubDate>
+      <guid>https://record.theelous3.net/posts/python_concurrency_primer/</guid>
+      <description>A birds eye view of the various ways of doing two things at once in python</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on theelous3&#39;s record</title>
+    <link>https://record.theelous3.net/tags/</link>
+    <description>Recent content in Tags on theelous3&#39;s record</description>
+    <image>
+      <title>theelous3&#39;s record</title>
+      <url>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Nov 2025 19:14:13 +0000</lastBuildDate>
+    <atom:link href="https://record.theelous3.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machining</title>
+      <link>https://record.theelous3.net/tags/machining/</link>
+      <pubDate>Thu, 27 Nov 2025 19:14:13 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/machining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tinkering</title>
+      <link>https://record.theelous3.net/tags/tinkering/</link>
+      <pubDate>Thu, 27 Nov 2025 19:14:13 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/tinkering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Woodworking</title>
+      <link>https://record.theelous3.net/tags/woodworking/</link>
+      <pubDate>Thu, 27 Nov 2025 19:14:13 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/woodworking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Foundryvtt</title>
+      <link>https://record.theelous3.net/tags/foundryvtt/</link>
+      <pubDate>Fri, 03 Jul 2020 22:17:35 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/foundryvtt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guide</title>
+      <link>https://record.theelous3.net/tags/guide/</link>
+      <pubDate>Fri, 03 Jul 2020 22:17:35 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Servers</title>
+      <link>https://record.theelous3.net/tags/servers/</link>
+      <pubDate>Fri, 03 Jul 2020 22:17:35 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/servers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code</title>
+      <link>https://record.theelous3.net/tags/code/</link>
+      <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://record.theelous3.net/tags/python/</link>
+      <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching</title>
+      <link>https://record.theelous3.net/tags/teaching/</link>
+      <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
+      <guid>https://record.theelous3.net/tags/teaching/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
