@@ -294,6 +294,9 @@ The next section "Configuring Foundry" has tips for using vim around a direct ex
 This option gives you proper HTTPS, no browser warnings, and auto-renewing certificates.
 
 First, go to your domain registrar (where you bought your domain) and create a **DNS A Record**.
+
+That might sound terrifying but once you click on your domain in your account, there will be a pretty clear DNS settings / records option there somewhere. You are just going to "add record" and:
+
 * **Host:** `@` or leave blank (or a subdomain like `foundry`)
 * **Value:** Your server's IP address (`x.x.x.x`)
 
