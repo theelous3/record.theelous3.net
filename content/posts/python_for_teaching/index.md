@@ -31,11 +31,11 @@ The all-knowing-already teacher intuits that in order to understand one thing yo
 
 So... you don't need to know about memory addresses to loop through a list :)
 
-Before you put pen to paper in your teaching session, you'll probably say something really lovely and expressive like
+Before the teacher puts pen to paper in the session, they'll probably say something really lovely and expressive like
 
 _"We want to transverse a list of items in sequence, printing the value of each element as you go"._
 
-This pretty much captures list iterating _and_ the task at hand in one easy to understand sentence. But then...
+This pretty much captures list iterating _and_ the task at hand in one easy to understand sentence. But then! (Go tobann!)
 
 The common approach to teaching list iteration is some shit in C like:
 
@@ -52,13 +52,13 @@ Which, when you factor in the detritus needed to even set this up...
     int itemsSize = sizeof(items) / sizeof(items[0]);
 ```
 
-... quickly turns in to quite a few things to remember for a new programmer. Remember as you read this that for new programmers even the decision to use [] vs {} is new info to be juggled and managed.
+... quickly turns in to quite a few things to remember for a new programmer. Remember as you read this that for new programmers even the decision to use [] vs {} is new info to be juggled and managed. They are remembering things about the sizes of items in arrays, and the return value of sizeof, and... what type was that again? What's a type?
 
 But this all makes the teacher feel _oh so correct_. It feels like the _path is right_. It feels like by taking this approach, one step at a time, they are truly elevating the student. They're being true to them and true to the fundamental realities of the world behind the code.
 
-**However it's just littering.**
+**However it's little more than littering.**
 
-The goal was to teach lists and list iteration, and look at the mess.
+The goal was to teach lists and list iteration, and look at the mess we've made.
 
 ### Some python to save the day.
 
