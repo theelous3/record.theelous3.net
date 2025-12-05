@@ -30,8 +30,10 @@
       <description>&lt;p&gt;Last updated: 2025/12/05&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;info&#34;&gt;Info&lt;/h3&gt;
+&lt;h4 id=&#34;what-do-i-need-to-know-about-servers--code-to-get-through-this-guide&#34;&gt;What do I need to know about servers / code to get through this guide?&lt;/h4&gt;
+&lt;p&gt;Absolutely nothing! Wahoo!&lt;/p&gt;
 &lt;h4 id=&#34;what-will-i-have-at-the-end-of-this-tutorial&#34;&gt;What will I have at the end of this tutorial?&lt;/h4&gt;
-&lt;p&gt;You will have a Foundry server running on a remote system that will always be on. You&amp;rsquo;ll have secure HTTPS for your connection. It will be a very basic setup. Your certificate will optionally be self-signed and probably scary looking the first time you connect, but perfectly good to use for years (Step 8a). Alternatively, if you have a domain, we can set up a proper HTTPS site that will get rid of the self signing warning (Step 8b).&lt;/p&gt;</description>
+&lt;p&gt;You will have a Foundry server running on a remote system that will always be on. You&amp;rsquo;ll have secure HTTPS for your connection. It will be a very basic setup. Your certificate will optionally be self-signed and probably scary looking the first time you connect, but perfectly good to use for years (Step nine(a)). Alternatively, if you have a domain, we can set up a proper HTTPS site that will get rid of the self signing warning (Step nine(b)).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Overteaching - an error</title>

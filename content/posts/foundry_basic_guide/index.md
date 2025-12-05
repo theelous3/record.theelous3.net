@@ -29,9 +29,12 @@ Last updated: 2025/12/05
 
 ### Info
 
+#### What do I need to know about servers / code to get through this guide?
+Absolutely nothing! Wahoo!
+
 #### What will I have at the end of this tutorial?
 
-You will have a Foundry server running on a remote system that will always be on. You'll have secure HTTPS for your connection. It will be a very basic setup. Your certificate will optionally be self-signed and probably scary looking the first time you connect, but perfectly good to use for years (Step 8a). Alternatively, if you have a domain, we can set up a proper HTTPS site that will get rid of the self signing warning (Step 8b).
+You will have a Foundry server running on a remote system that will always be on. You'll have secure HTTPS for your connection. It will be a very basic setup. Your certificate will optionally be self-signed and probably scary looking the first time you connect, but perfectly good to use for years (Step nine(a)). Alternatively, if you have a domain, we can set up a proper HTTPS site that will get rid of the self signing warning (Step nine(b)).
 
 #### What do you need, before we begin?
 
