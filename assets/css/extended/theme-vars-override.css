@@ -1,11 +1,11 @@
 :root {
   /* light mode */
-  --theme: #ecebeb;        /* page background */
-  --entry: #ededed;        /* card / post background */
-  --primary: #202020;      /* main accent (links, buttons) */
-  --secondary: #657b83;    /* secondary text */
-  --tertiary: #ffffff;     /* subtle UI bits */
-  --content: #073642;      /* body text */
+  --theme: #ecebeb;
+  --entry: #ededed;
+  --primary: #202020;
+  --secondary: #657b83;
+  --tertiary: #ffffff;
+  --content: #073642;
   --border: #4fe6b3;
   --code-bg: #f0f0f0;
   --hljs-bg: #002b36;
@@ -27,15 +27,3 @@ body {
   --code-block-bg: #0d0d0d;
 }
 
-/*
-:root[data-theme="dark"] {
-  --theme: #002b36;
-  --entry: #073642;
-  --primary: #b58900;
-  --secondary: #93a1a1;
-  --tertiary: #586e75;
-  --content: #eee8d5;
-  --border: #073642;
-  --code-bg: #073642;
-  --code-block-bg: #002b36;
-} */
