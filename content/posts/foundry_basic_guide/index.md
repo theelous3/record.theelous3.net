@@ -57,7 +57,7 @@ We need to generate a key pair to securely access the server.
 
 In your terminal, type:
 
-    ssh-keygen -t ed25519
+    $ ssh-keygen -t ed25519
 
 
 Use the default options for everything, and no password.
@@ -109,7 +109,7 @@ Go back to your terminal window (PowerShell or Terminal).
 
 Type the following, replacing `x.x.x.x` with the IP address you just copied:
 
-    ssh root@x.x.x.x
+    $ ssh root@x.x.x.x
 
 You’ll get some message that the host key isn’t cached. That is fine, type `yes` or `y` and hit enter. Happens on first connect.
 
@@ -125,38 +125,38 @@ You can paste into the terminal window with just a right click.
 
 Add a user. I’m `foundryuser`, so I’ll add myself:
 
-    adduser foundryuser
+    $ adduser foundryuser
 
 You’ll be prompted to enter a password and a bunch of rubbish info. Add a password and just spam `enter` through the junk.
 
 Now we give this user a way to do admin things - aka `sudo`:
 
-    usermod -aG sudo foundryuser
+    $ usermod -aG sudo foundryuser
 
 If you have an issue with rsync run
 
-    sudo apt install rsync
+    $ sudo apt install rsync
 
 Now we need to set it such that our new user can log in to the server:
 
-    rsync --archive --chown=foundryuser:foundryuser ~/.ssh /home/foundryuser
+    $ rsync --archive --chown=foundryuser:foundryuser ~/.ssh /home/foundryuser
 
 (Being careful to replace `foundryuser` with your username.)
 
 Now log out (type `exit`), and log back in, using your new username instead of `root`.
 
-    ssh foundryuser@x.x.x.x
+    $ ssh foundryuser@x.x.x.x
 
 Test this user is working with this command, entering this new user’s password when prompted:
 
-    sudo ls -la /root
+    $ sudo ls -la /root
 
 If you see some random files listed, nice!
 
 Update the server:
 
-    sudo apt update
-    sudo apt upgrade -y
+    $ sudo apt update
+    $ sudo apt upgrade -y
 
 Accept the default on anything that pops up.
 
@@ -175,32 +175,32 @@ https://github.com/nvm-sh/nvm#installing-and-updating
 
 It will look like this:
 
-    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 Then:
 
-    source ~/.bashrc
+    $ source ~/.bashrc
 
 Ensure `nvm` is installed:
 
-    command -v nvm
+    $ command -v nvm
 
 …should output `nvm`.
 
 Install a modern version of Node. Generally you want to install the latest Long Term Support (LTS) release. Run this command to get a list of available node versions:
 
-    nvm ls-remote
+    $ nvm ls-remote
 
 You will be presented with a list of versions. Go for the latest LTS release. In my EXAMPLE screenshot (which may be out of date!) that version is `24.11.1`
 
-    nvm install 24.11.1
+    $ nvm install 24.11.1
 
 ![latest lts](latestlts.png)
 
 
 Ensure node is installed:
 
-    node --version
+    $ node --version
 
 …will output the version.
 
@@ -208,10 +208,7 @@ Ensure node is installed:
 
 #### Step seven - create directories for Foundry, and install it
 
-    cd ~
-    mkdir foundryvtt
-    mkdir foundrydata
-    cd foundryvtt
+    $ cd ~ && mkdir foundryvtt && mkdir foundrydata && cd foundryvtt
 
 Now, log in to the Foundry site, go to your user profile -> purchased licences. Select the latest stable release from the dropdown, and the "node.js" version for "operating system".
 
@@ -223,19 +220,19 @@ Back in the terminal:
 
 **Replace the `PASTE_IN_HERE` portion with your copied link, leaving in the quotes `'`!**
 
-    curl -o foundryvtt.zip 'PASTE_IN_HERE'
+    $ curl -o foundryvtt.zip 'PASTE_IN_HERE'
 
 It will look like:
 
-    curl -o foundryvtt.zip 'https://r2.foundryvtt.com/releases/13.351/FoundryVTT-Node-13.351.zip?verify=1764763601-oudNyhbcXSfJoCL%2BkWtdRPJ2Wdx9fRG9429%2B%2FPAaIR4%3D'
+    $ curl -o foundryvtt.zip 'https://r2.foundryvtt.com/releases/13.351/FoundryVTT-Node-13.351.zip?verify=1764763601-oudNyhbcXSfJoCL%2BkWtdRPJ2Wdx9fRG9429%2B%2FPAaIR4%3D'
 
 Then unzip:
 
-    unzip foundryvtt.zip
+    $ unzip foundryvtt.zip
 
 If you get an error that you do not have unzip, run
 
-    sudo apt install unzip
+    $ sudo apt install unzip
 
 and try unzip again :)
 
@@ -247,7 +244,7 @@ Replace username and run:
 
 *WARNING! DO NOT ENTER YOUR LICENSE KEY YET*
 
-    node ~/foundryvtt/main.js --dataPath=$HOME/foundrydata
+    $ node ~/foundryvtt/main.js --dataPath=$HOME/foundrydata
 
 You should see Foundry start up :D
 
@@ -275,17 +272,15 @@ This is where the guide takes two paths - choose your own adventure.
 
 Install `openssl`:
 
-    sudo apt install openssl
+    $ sudo apt install openssl
 
 Set up the directory structure:
 
-    cd ~
-    mkdir foundrycerts
-    cd foundrycerts
+    $ cd ~ && mkdir foundrycerts && cd foundrycerts
 
 Generate cert/key:
 
-    openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 99999 -nodes
+    $ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 99999 -nodes
 
 Spam `enter` to skip junk questions.
 
@@ -308,16 +303,17 @@ Wait a few minutes for this DNS change to update. It should have a little pendin
 
 Back in your terminal, install certbot, nginx (a webserver) and some helper scripts:
 
-    sudo apt install nginx certbot python3-certbot-nginx
+    $ sudo apt install nginx certbot python3-certbot-nginx
 
 Once these are installed, we'll create a config in the server so it knows about foundry:
 
-    sudo vim /etc/nginx/sites-available/foundry
+    $ sudo vim /etc/nginx/sites-available/foundry
 
 This opens vim - please read the "VIM WARNING" if you have not, and you aren't familiar with vim!
 
 Paste this in to vim (typically right click pastes in terminals):
 
+```nginx
     server {
         listen 80;
         listen [::]:80;
@@ -335,18 +331,21 @@ Paste this in to vim (typically right click pastes in terminals):
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
         }
     }
+```
 
 Save and exit `esc` -> `:wq`
 
 Enable the site config
 
-    sudo ln -s /etc/nginx/sites-available/foundry /etc/nginx/sites-enabled/
-    sudo nginx -t
-    sudo systemctl restart nginx
+
+    $ sudo ln -s /etc/nginx/sites-available/foundry /etc/nginx/sites-enabled/
+    $ sudo nginx -t
+    $ sudo systemctl restart nginx
+
 
 Generate the certificate (replace `yourdomain.com` with your actual domain. If you set your A record earlier to be a subdomain like `foundry.yourdomain.com` be sure to use that full domain.):
 
-    sudo certbot --nginx -d yourdomain.com
+    $ sudo certbot --nginx -d yourdomain.com
 
 ### Configuring Foundry (For both nine(a) and nine(b))
 
@@ -354,7 +353,7 @@ This bit is a little tricky. We’re going to use `vim` to edit the config file,
 
 `vim` is an old-school editor, and tricky for noobs. If you follow the keystrokes I lay out *exactly* you won’t have a problem. If at any point you do have a problem, press `esc` followed by `:` followed by `q!` and press enter to exit, and just start again. `esc` enters command mode and `:q!` is the command that means "quit without caring if it's not saved".
 
-    vim ~/foundrydata/Config/options.json
+    $ vim ~/foundrydata/Config/options.json
 
 Once `vim` is open, press `i`. You will see at the bottom it says `-- INSERT --`. This is good. If it does not, you did not press `i`.
 
@@ -377,7 +376,7 @@ Now press `esc` then `:` then type `wq` and hit enter.
 
 You can verify everything worked by running Foundry again with:
 
-    node ~/foundryvtt/main.js --dataPath=$HOME/foundrydata
+    $ node ~/foundryvtt/main.js --dataPath=$HOME/foundrydata
 
 If you self signed you should now see both the cert and key have paths in the startup text of Foundry.
 
@@ -393,16 +392,17 @@ When you close your server connection, processes you have running close too. We 
 
 Get your Node version and make a note of it. You’ll need it in a second:
 
-    node --version
+    $ node --version
 
 First we’re going to use `vim` to create a service file:
 
-    sudo vim /etc/systemd/system/foundry.service
+    $ sudo vim /etc/systemd/system/foundry.service
 
 Press `i` again to go into `INSERT` mode and type the following (you can try pasting it in but `vim` is kind of weird like that):
 
 Of course, again replace `foundryuser` with your username in all four locations. Also, replace your Node version. Below, mine is `v24.x.x` in the `ExecStart` line.
 
+```systemd
     [Unit]
     Description=FoundryVTT
     After=network.target
@@ -418,20 +418,21 @@ Of course, again replace `foundryuser` with your username in all four locations.
 
     [Install]
     WantedBy=multi-user.target
+```
 
 Exit `vim` as before: `esc`, `:`, `wq`, `enter`.
 
 Now start the service:
 
-    sudo systemctl start foundry.service
+    $ sudo systemctl start foundry.service
 
 Check it’s up and running. Press `q` to exit the status:
 
-    sudo systemctl status foundry.service
+    $ sudo systemctl status foundry.service
 
 Finally, enable the service so it auto starts any time the server is rebooted:
 
-    sudo systemctl enable foundry.service
+    $ sudo systemctl enable foundry.service
 
 aaaaaaaaaaaaaaaaaaaaaand that’s it! Congrats on making it through!
 

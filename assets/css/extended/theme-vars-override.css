@@ -5,7 +5,7 @@
   --primary: #202020;
   --secondary: #657b83;
   --tertiary: #ffffff;
-  --content: #073642;
+  --content: #1a1a1a;
   --border: #4fe6b3;
   --code-bg: #f0f0f0;
   --hljs-bg: #002b36;
@@ -25,5 +25,10 @@ body {
   --border: #674744;
   --code-bg: #252525;
   --code-block-bg: #0d0d0d;
+
+  --h3-color: #c484bd;
 }
 
+.post-content h3 {
+  color: var(--h3-color);
+}
