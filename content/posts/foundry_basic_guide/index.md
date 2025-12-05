@@ -287,7 +287,7 @@ Spam `enter` to skip junk questions.
 Now we need to tell Foundry where these files are. Skip down to "Configuring Foundry" below.
 
 ### VIM WARNING!!! A quick lesson in vim, the text editor you'll need next!
-The next section "Configuring Foundry" has tips for using vim around a direct example. If you are going to use option nine(b) for high tech HTTPS and you don't know how to use vim, look ahead at the example. If you are going straight to that section, Go right ahead, and take your time :)
+The section "Configuring Foundry" has tips for using vim around a direct example. If you are going to use option nine(b) for fancy HTTPS and you don't know how to use vim, look ahead at the example. If you are going straight to that section, Go right ahead, and take your time :)
 
 ### Option nine(b): Let's Encrypt (Requires Domain, more complex)
 
@@ -301,8 +301,6 @@ That might sound terrifying but once you click on your domain in your account, t
 * **Value:** Your server's IP address (`x.x.x.x`)
 
 I recommend a subdomain. If you type "foundry" in `host` your url will ultimately be like `foundry.yourdomain.com` which is nice.
-
-Wait a few minutes for this DNS change to update. It should have a little pending warning or whatever on the record page.
 
 Back in your terminal, install certbot, nginx (a webserver) and some helper scripts:
 
@@ -345,8 +343,11 @@ Enable the site config
     $ sudo nginx -t
     $ sudo systemctl restart nginx
 
+Now we will check that the DNS records we created have been established - go to this site and put your domain in: https://www.whatsmydns.net/
 
-Generate the certificate (replace `yourdomain.com` with your actual domain. If you set your A record earlier to be a subdomain like `foundry.yourdomain.com` be sure to use that full domain.):
+All green? Good to go. If not, just wait a few and check again.
+
+Generate the certificate (replace `yourdomain.com` with your actual domain. If you set your A record earlier to be a subdomain like `foundry.yourdomain.com` be sure to use that full domain):
 
     $ sudo certbot --nginx -d yourdomain.com
 
@@ -358,24 +359,24 @@ This bit is a little tricky. We’re going to use `vim` to edit the config file,
 
     $ vim ~/foundrydata/Config/options.json
 
-Once `vim` is open, press `i`. You will see at the bottom it says `-- INSERT --`. This is good. If it does not, you did not press `i`.
+Once `vim` is open, press `i`. You will see at the bottom it says `-- INSERT --`. This is good. If it does not, you either did not press `i`, or you can press `esc` and then `i`.
 
-Replace `foundryuser` as per usual.
+Replace `foundryuser` with your own as per usual.
 
 Use the arrow keys to navigate.
 
-If you are self signing, make these changes:
+If you are **self signing**, make these changes:
 
     "sslCert": "/home/foundryuser/foundrycerts/cert.pem",
     "sslKey": "/home/foundryuser/foundrycerts/key.pem",
 
-If you are using a domain and let's encrypt, only set:
+If you are using a domain and **let's encrypt**, only set:
 
     "proxySSL": true,
 
-leaving the other ssl fields as they are.
+leaving the other fields as they are.
 
-Now press `esc` then `:` then type `wq` and hit enter.
+Now press `esc` then type `:wq` and hit enter.
 
 You can verify everything worked by running Foundry again with:
 
