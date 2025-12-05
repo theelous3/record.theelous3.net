@@ -445,7 +445,7 @@ You are ready to adventure!
 **Important!**
 
 **If you used Option nine(a) (Self-Signed):**
-you’re going to get a weird looking warning the first time you connect. This is because your server is issuing your browser with its own self-signed certificate (the one you made for it). Just go to advanced and accept it and continue. We’re not really interested in if it is authentic, because you know it is, you just made it.
+You’re going to get a weird looking warning the first time you connect. This is because your server is issuing your browser with its own self-signed certificate (the one you made for it). Just go to advanced and accept it and continue. We’re not really interested in if it is authentic, because you know it is, you just made it.
 
 To connect to your server, go to the following address (replace `0.0.0.0` with your server's IP address):
 
