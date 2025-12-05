@@ -85,7 +85,7 @@ Once your payment is completed, you’ll find yourself on the https://cloud.digi
 
 Back on the DigitalOcean dashboard, on the left under **Manage**, click `Droplets` and `Create new droplet`.
 
-Leave nearly everything default. You may want to change your server’s location.
+You may want to change your server’s location closer to home.
 
 Under **Authentication** you want to select `SSH Keys`. Choose `New SSH Key`.
 
