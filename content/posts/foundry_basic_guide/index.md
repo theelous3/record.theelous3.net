@@ -278,9 +278,9 @@ Set up the directory structure:
 
     $ cd ~ && mkdir foundrycerts && cd foundrycerts
 
-Generate cert/key:
+Generate cert/key (this is a long command be sure to copy it all!):
 
-    $ openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 99999 -nodes
+    $ openssl req -x509 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -nodes -keyout key.pem -out cert.pem -days 99999
 
 Spam `enter` to skip junk questions.
 
