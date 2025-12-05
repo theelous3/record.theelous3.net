@@ -25,7 +25,7 @@ cover:
 
 ### Teach one thing at a time.
 
-An intuition that many have when teaching is to start at the foundation and strictly work upwards. In programming this translates to working with languages that reveal to you some aspects of the hardware, brick by brick, and doing things like putting stuff in memory.
+An intuition that many have when teaching is to start at the foundation and strictly work upwards. In programming this translates to working with languages that reveal to you some aspects of the hardware, brick by brick, and thinking about things like how to retrieve stuff back out of your ram.
 
 The all-knowing-already teacher intuits that in order to understand one thing you should understand everything else holding it up. This is obviously untrue when you give it any thought. You don't need to understand the details of fluid dynamics to be an expert engine mechanic. You don't need to grep math proofs to manage global scale financial systems. We operate our whole lives almost exclusively in abstraction layers with no idea whatsoever about the scaffolding holding it up.
 
