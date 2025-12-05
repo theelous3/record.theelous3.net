@@ -23,7 +23,7 @@ cover:
   hiddenInSingle: false
 ---
 
-Last updated: 2025/112/05
+Last updated: 2025/12/05
 
 ---
 
