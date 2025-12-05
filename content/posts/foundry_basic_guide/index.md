@@ -213,7 +213,7 @@ Ensure node is installed:
 
     $ cd ~ && mkdir foundryvtt && mkdir foundrydata && cd foundryvtt
 
-Now, log in to the Foundry site, go to your user profile -> purchased licences. Select the latest stable release from the dropdown, and the "node.js" version for "operating system".
+Now, open your web browser and log in to the Foundry site, then go to your user profile -> purchased licences. Select the latest stable release from the dropdown, and the "node.js" version for "operating system".
 
 ![download link](timed_link.png)
 
