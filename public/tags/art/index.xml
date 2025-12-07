@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Art on theelous3&#39;s record</title>
-    <link>http://localhost:1313/tags/art/</link>
+    <link>https://record.theelous3.net/tags/art/</link>
     <description>Recent content in Art on theelous3&#39;s record</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>theelous3&#39;s record</title>
+      <url>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 16 Sep 2016 00:07:31 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/art/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://record.theelous3.net/tags/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Symmetree</title>
-      <link>http://localhost:1313/art/symmetree/</link>
+      <link>https://record.theelous3.net/art/symmetree/</link>
       <pubDate>Fri, 16 Sep 2016 00:07:31 +0000</pubDate>
-      <guid>http://localhost:1313/art/symmetree/</guid>
-      <description>&lt;p&gt;I discovered a weird phenomena where if you look up at the sky through some bare branch trees, take a picture, and mirror it along the center - you can pretty much always find some sort of creepy religious figure. Like a bishop. I&amp;rsquo;ve never been religious but maybe this is that elusive generational trauma memory? lol&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;3.png&#34; alt=&#34;3.png&#34;&gt;&lt;/p&gt;</description>
+      <guid>https://record.theelous3.net/art/symmetree/</guid>
+      <description>&lt;p&gt;I discovered a weird phenomena where if you look up at the sky through some bare branch trees, take a picture, and mirror it along the center - you can pretty much always find some sort of creepy religious figure. Like a bishop. I&amp;rsquo;ve never been religious but maybe this is that elusive generational trauma memory? lol&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img alt=&#34;3.png&#34; loading=&#34;lazy&#34; src=&#34;https://record.theelous3.net/art/symmetree/3.png&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Python on theelous3&#39;s record</title>
-    <link>http://localhost:1313/tags/python/</link>
+    <link>https://record.theelous3.net/tags/python/</link>
     <description>Recent content in Python on theelous3&#39;s record</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>theelous3&#39;s record</title>
+      <url>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Dec 2017 13:21:01 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://record.theelous3.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overteaching - an error</title>
-      <link>http://localhost:1313/posts/python_for_teaching/</link>
+      <link>https://record.theelous3.net/posts/python_for_teaching/</link>
       <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
-      <guid>http://localhost:1313/posts/python_for_teaching/</guid>
-      <description>&lt;h3 id=&#34;teach-one-thing-at-a-time&#34;&gt;Teach one thing at a time.&lt;/h3&gt;&#xA;&lt;p&gt;An intuition that many have when teaching is to start at the foundation and strictly work upwards. In programming this translates to working with languages that reveal to you some aspects of the hardware, brick by brick, and thinking about things like how to retrieve stuff back out of your ram.&lt;/p&gt;&#xA;&lt;p&gt;The all-knowing-already teacher intuits that in order to understand one thing you should understand everything else holding it up. This is obviously untrue when you give it any thought. You don&amp;rsquo;t need to understand the details of fluid dynamics to be an expert engine mechanic. You don&amp;rsquo;t need to grep math proofs to manage global scale financial systems. We operate our whole lives almost exclusively in abstraction layers with no idea whatsoever about the scaffolding holding it up.&lt;/p&gt;</description>
+      <guid>https://record.theelous3.net/posts/python_for_teaching/</guid>
+      <description>Choosing the right level of abstraction to work at is important.</description>
     </item>
     <item>
       <title>Wtf is self (in python)</title>
-      <link>http://localhost:1313/posts/wtf_is_self/</link>
+      <link>https://record.theelous3.net/posts/wtf_is_self/</link>
       <pubDate>Sat, 19 Aug 2017 16:35:44 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wtf_is_self/</guid>
-      <description>&lt;p&gt;Let&amp;rsquo;s say you wanted to design a useful little machine called a widget, and start producing them in a range of colours. First thing you&amp;rsquo;d do is design a blueprint. In Python, writing a class is much like writing a blueprint for something. Let&amp;rsquo;s write our widget!&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Widget&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;pass&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Well. That was easy. We could start producing these widgets right away if we liked.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;first_edition_widget&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Widget&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;second_edition_widget&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Widget&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;third_edition_widget&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Widget&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;basic_widgets.png&#34; alt=&#34;basic widgets&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nice! We have our widgets. Each widget is an instance of &lt;code&gt;Widget&lt;/code&gt; and is its own object. We don&amp;rsquo;t yet have a way to give our widgets a range of colours though. Giving our class an &lt;code&gt;__init__&lt;/code&gt; method will enable us to initialise each widget with a colour. Let&amp;rsquo;s do that, and then create a red widget.&lt;/p&gt;</description>
+      <guid>https://record.theelous3.net/posts/wtf_is_self/</guid>
+      <description>From no-idea to advanced understanding in one short page. </description>
     </item>
     <item>
       <title>Concurrency in python, a primer.</title>
-      <link>http://localhost:1313/posts/python_concurrency_primer/</link>
+      <link>https://record.theelous3.net/posts/python_concurrency_primer/</link>
       <pubDate>Fri, 02 Jun 2017 18:49:24 +0000</pubDate>
-      <guid>http://localhost:1313/posts/python_concurrency_primer/</guid>
-      <description>&lt;h2 id=&#34;some-terminology&#34;&gt;Some Terminology&lt;/h2&gt;&#xA;&lt;h3 id=&#34;io&#34;&gt;I/O&lt;/h3&gt;&#xA;&lt;p&gt;i/o (input/output) is pretty much any operation that requires getting data from outside of your computer’s RAM. (Usually means getting stuff from your hard drive, or over a network.) Hard drives and networks are physical things which need to be accessed, and as such they are extremely slow relative to running computations, or accessing things from your blazing fast RAM.&lt;/p&gt;&#xA;&lt;p&gt;The performance of an i/o bound task is dependent on the devices and interfaces between you and the resource you want to access. This could be kilometers of copper wire maintained by pigeons, or it could be your uber-fast SSD.&lt;/p&gt;</description>
+      <guid>https://record.theelous3.net/posts/python_concurrency_primer/</guid>
+      <description>A birds eye view of the various ways of doing two things at once in python</description>
     </item>
   </channel>
 </rss>
