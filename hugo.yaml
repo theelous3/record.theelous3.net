@@ -79,7 +79,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "A public record of tinkering, teaching, and thoughts."
+    Title: "tl3/markj's online repo of stuff"
     Content: I'm a guy who's in to software, machining, fabrication, furniture design, art, etc. This subdomain mostly exists as a record of things of interest which I think will otherwise (or have already) been lost to time / obscurity, and as a place of convenience for me to post stuff I want to share.
 
   socialIcons:
