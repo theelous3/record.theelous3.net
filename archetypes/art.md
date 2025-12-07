@@ -25,6 +25,9 @@ cover:
   hiddenInSingle: true
   hiddenInList: false
 ---
-
 ___
-![x.png](x.png)
+
+_Click to expand_
+
+{{< gallery match="x.png" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="800x800 q100 Lanczos" embedPreview=true loadJQuery=true >}}
+___
