@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://record.theelous3.net/sitemap.xml

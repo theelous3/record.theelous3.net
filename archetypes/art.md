@@ -1,0 +1,30 @@
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+draft: true
+tags: [art]
+categories: [art]
+author: ""
+showToc: true
+TocOpen: false
+hidemeta: false
+comments: false
+description: ""
+canonicalURL: ""
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+hiddenInHomeList: true
+hiddenFromRss: false
+cover:
+  image: "x.png"
+  hiddenInSingle: true
+  hiddenInList: false
+---
+
+___
+![x.png](x.png)

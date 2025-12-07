@@ -1,6 +1,8 @@
 baseURL: "https://record.theelous3.net/"
 title: theelous3's record
-theme: PaperMod
+theme:
+  - PaperMod
+  - hugo-shortcode-gallery
 pagination:
   pagerSize: 10
 
@@ -14,10 +16,13 @@ minify:
   minifyOutput: true
 
 params:
+  mainSections:
+    - posts
+    - art
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: theelous3's records
   description: "Things theelous3 has recorded and published."
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, art, design, machining, code]
   author: theelous3
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -42,6 +47,8 @@ params:
   showtoc: false
   tocopen: false
 
+
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -50,7 +57,6 @@ params:
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
-
   label:
     text: "theelous3's record"
     icon: /apple-touch-icon.png
@@ -105,6 +111,7 @@ params:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
+    height: 400px
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
@@ -132,13 +139,13 @@ menu:
       name: all posts
       url: /archives/
       weight: 10
-    # - identifier: categories
-    #   name: categories
-    #   url: /categories/
-    #   weight: 20
     - identifier: tags
       name: tags
       url: /tags/
+      weight: 20
+    - identifier: art_category
+      name: ART
+      url: /categories/art
       weight: 30
     - identifier: main_site
       name: theelous3.net
