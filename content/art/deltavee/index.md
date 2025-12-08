@@ -39,7 +39,7 @@ It is an accurate and to scale map of the solar system in both size and delta-v!
 
 I always wanted a solar system map which was fully to scale. Of course, using normal distances this is essentially impossible, and if you try to make it possible, the scale of the objects is too small to see.
 
-As I learned about delta-v from wiking around one day I realised it was representitive of travel, which on earth is an important aspect of distance that we relate to, and it used units that were much more human scale than the hundreds of millions to billions of kilometers or AU we normally measure these distances in.
+As I learned about delta-v from wiking around one day I realised it was representative of travel, which on earth is an important aspect of distance that we relate to, and it used units that were much more human scale than the hundreds of millions to billions of kilometers or AU we normally measure these distances in.
 
 What is delta-v? It is, in km/s:
 
@@ -54,7 +54,7 @@ The highest delta-v object is the sun at about 200 and the lowest (commonly know
 
 This makes Mercury harder to get to than much bigger objects like Venus, because of Mercury's proximity to the very massive sun.
 
-Included are an object each from the main asteroid belt (Cerea), and the Kuiper belt (Pluto). Vast distances apart, but much like Uranus and Neptune, proximity in size gives close proximity in delta-v!
+Included are an object each from the main asteroid belt (Ceres), and the Kuiper belt (Pluto). They are vast distances apart, but much like Uranus and Neptune, proximity in size gives close proximity in delta-v!
 
 I found this reordering of the map absolutely fascinating to be honest.
 

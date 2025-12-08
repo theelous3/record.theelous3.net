@@ -163,7 +163,7 @@ Update the server:
 
 Accept the default on anything that pops up.
 
-If you have any issues, relog as `root` and make sure you didn’t miss a step.
+If you have any issues, re-log as `root` and make sure you didn’t miss a step.
 
 ---
 
