@@ -174,3 +174,6 @@ outputs:
     - RSS
     - JSON # necessary for search
 
+services:
+  googleAnalytics:
+    id: G-CT585981H1
