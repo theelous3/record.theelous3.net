@@ -75,7 +75,7 @@ Refer back to the simple sentence:
 
 _"We want to transverse a list of items in sequence, printing the value of each element as you go"._
 
-There it is in code. The student has truly learned something.
+There it is in code.
 
 **They can digest the whole concept in one bite.**
 
