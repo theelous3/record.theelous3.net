@@ -28,7 +28,7 @@ ___
 
 _Click to expand_
 
-{{< gallery match="deltavee_system_detailed_4k.png" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="800x800 q100 Lanczos" embedPreview=true loadJQuery=true >}}
+{{< gallery match="deltavee_system_detailed_4k.png" sortOrder="desc" rowHeight="300" margins="5" thumbnailResizeOptions="800x800 q100 Lanczos" embedPreview=true loadJQuery=true >}}
 ___
 
 ### What is this image?
@@ -49,6 +49,13 @@ What is delta-v? It is, in km/s:
 This means that to go to the moon, you need to impulse your way out of earth's gravity well by accelerating away from earth. In space there is no "braking", there is just acceleration in the opposite direction to travel. So as you near your destination you need to accelerate to slow yourself down from your travel (which gets harder as you get deeper in to the gravity well of the destination object) just enough to match the velocity of the orbit you want to occupy.
 
 This has strange consequences. The overall "work" to get to smaller objects is typically much lower because of their lower destination mass. This means Pluto (5.9 billion km away) is "easier"  to get to than something like Jupiter (778.5 million km away).
+
+See?
+
+_Click to expand_
+
+{{< gallery match="deltavee_system_detailed_closeup.png" sortOrder="desc" rowHeight="300" margins="30" thumbnailResizeOptions="800x800 q100 Lanczos" embedPreview=true loadJQuery=true >}}
+<br>
 
 The highest delta-v object is the sun at about 200 and the lowest (commonly known planetoid) is the moon at about 4.
 
