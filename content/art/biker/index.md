@@ -1,0 +1,31 @@
+---
+title: "Biker"
+date: 2017-02-24T15:08:39Z
+draft: false
+tags: [art]
+categories: [art]
+author: ""
+showToc: true
+TocOpen: false
+hidemeta: false
+comments: false
+description: ""
+canonicalURL: ""
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+hiddenInHomeList: true
+hiddenFromRss: false
+cover:
+  image: "biker.gif"
+  hiddenInSingle: true
+  hiddenInList: false
+---
+___
+
+![biker.gif](biker.gif)
+___

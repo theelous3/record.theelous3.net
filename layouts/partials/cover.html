@@ -21,6 +21,10 @@
         {{- $processableFormats = $processableFormats | append "webp" -}}
     {{- end -}}
 
+    {{- /* detect gifs so we can bypass Hugo processing */ -}}
+    {{- $ext := lower (path.Ext .Params.cover.image) }}
+    {{- $isGif := eq $ext ".gif" }}
+
     {{- $imgdl := (.Params.cover.image) | absURL }}
     {{- if $cover -}}
         {{- $imgdl = $cover.Permalink }}
@@ -40,7 +44,8 @@
 
     {{- if $cover -}}
         {{/* i.e it is present in page bundle */}}
-        {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true)) }}
+        {{- if (and (in $processableFormats $cover.MediaType.SubType) ($responsiveImages) (eq $prod true) (not $isGif)) }}
+            {{/* non-gif, do responsive resize as usual */}}
             <img loading="{{$loading}}"
                 srcset='{{- range $size := $sizes -}}
                             {{- if (ge $cover.Width $size) }}
@@ -53,7 +58,7 @@
                 width="{{ $cover.Width }}" height="{{ $cover.Height }}"
                 {{- $styleAttr | safeHTMLAttr }}
                 alt="{{ $alt }}">
-        {{- else }}{{/* Unprocessable image or responsive images disabled */}}
+        {{- else }}{{/* Unprocessable image, responsive disabled, or GIF: no Hugo processing */}}
             <img loading="{{ $loading }}" src="{{ $imgdl }}"
                 {{- $styleAttr | safeHTMLAttr }}
                 alt="{{ $alt }}">

@@ -4,7 +4,7 @@ theme:
   - PaperMod
   - hugo-shortcode-gallery
 pagination:
-  pagerSize: 10
+  pagerSize: 100
 
 enableRobotsTXT: true
 buildDrafts: false
