@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Nov 2025 19:14:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 14:15:40 +0000</lastBuildDate>
     <atom:link href="https://record.theelous3.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stupid goaccess reverse proxy websocket port trick</title>
+      <link>https://record.theelous3.net/posts/goaccess_nginx/</link>
+      <pubDate>Tue, 09 Dec 2025 14:15:40 +0000</pubDate>
+      <guid>https://record.theelous3.net/posts/goaccess_nginx/</guid>
+      <description>&lt;p&gt;Setting up live goaccess behind a reverse proxy has an arcane and stupid trick.&lt;/p&gt;
+&lt;p&gt;In order to get your browser to stop trying to connect your websocket to &lt;code&gt;wss://whatever.com:7890/ws&lt;/code&gt; where port &lt;code&gt;7890&lt;/code&gt; is both nonsense (your reverse proxy is not listening there) and insecure (your browser doesn&amp;rsquo;t want to deal with this port), you must define your config to explicitly use the port it should already be using, &lt;code&gt;80&lt;/code&gt; or &lt;code&gt;443&lt;/code&gt; depending on ws or wss.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dw50 / DW1150 &#34;special adjusting screw&#34;</title>
       <link>https://record.theelous3.net/posts/dw50_special_screw/</link>

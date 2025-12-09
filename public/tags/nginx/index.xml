@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Code on theelous3&#39;s record</title>
-    <link>https://record.theelous3.net/tags/code/</link>
-    <description>Recent content in Code on theelous3&#39;s record</description>
+    <title>Nginx on theelous3&#39;s record</title>
+    <link>https://record.theelous3.net/tags/nginx/</link>
+    <description>Recent content in Nginx on theelous3&#39;s record</description>
     <image>
       <title>theelous3&#39;s record</title>
       <url>https://record.theelous3.net/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Tue, 09 Dec 2025 14:15:40 +0000</lastBuildDate>
-    <atom:link href="https://record.theelous3.net/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://record.theelous3.net/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stupid goaccess reverse proxy websocket port trick</title>
       <link>https://record.theelous3.net/posts/goaccess_nginx/</link>
@@ -20,27 +20,6 @@
       <guid>https://record.theelous3.net/posts/goaccess_nginx/</guid>
       <description>&lt;p&gt;Setting up live goaccess behind a reverse proxy has an arcane and stupid trick.&lt;/p&gt;
 &lt;p&gt;In order to get your browser to stop trying to connect your websocket to &lt;code&gt;wss://whatever.com:7890/ws&lt;/code&gt; where port &lt;code&gt;7890&lt;/code&gt; is both nonsense (your reverse proxy is not listening there) and insecure (your browser doesn&amp;rsquo;t want to deal with this port), you must define your config to explicitly use the port it should already be using, &lt;code&gt;80&lt;/code&gt; or &lt;code&gt;443&lt;/code&gt; depending on ws or wss.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Overteaching - an error</title>
-      <link>https://record.theelous3.net/posts/python_for_teaching/</link>
-      <pubDate>Mon, 04 Dec 2017 13:21:01 +0000</pubDate>
-      <guid>https://record.theelous3.net/posts/python_for_teaching/</guid>
-      <description>Choosing the right level of abstraction to work at is important.</description>
-    </item>
-    <item>
-      <title>Wtf is self (in python)</title>
-      <link>https://record.theelous3.net/posts/wtf_is_self/</link>
-      <pubDate>Sat, 19 Aug 2017 16:35:44 +0000</pubDate>
-      <guid>https://record.theelous3.net/posts/wtf_is_self/</guid>
-      <description>From no-idea to advanced understanding in one short page. </description>
-    </item>
-    <item>
-      <title>Concurrency in python, a primer.</title>
-      <link>https://record.theelous3.net/posts/python_concurrency_primer/</link>
-      <pubDate>Fri, 02 Jun 2017 18:49:24 +0000</pubDate>
-      <guid>https://record.theelous3.net/posts/python_concurrency_primer/</guid>
-      <description>A birds eye view of the various ways of doing two things at once in python</description>
     </item>
   </channel>
 </rss>
