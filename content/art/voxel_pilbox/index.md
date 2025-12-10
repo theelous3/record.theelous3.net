@@ -1,5 +1,5 @@
 ---
-title: "Voxel_pilbox"
+title: "Voxel abandoned pilbox"
 date: 2016-10-14T15:32:05Z
 draft: false
 tags: [art]

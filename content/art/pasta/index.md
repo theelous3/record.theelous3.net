@@ -1,5 +1,5 @@
 ---
-title: "Human Fuel Rods"
+title: "Fuel Rods (organic)"
 date: 2025-08-02T19:27:13Z
 draft: false
 tags: [art]

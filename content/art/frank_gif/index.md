@@ -1,6 +1,6 @@
 ---
-title: "Skullset"
-date: 2020-11-02T15:13:15Z
+title: "little frank (pet of mark) swearengen"
+date: 2025-12-10T16:07:46Z
 draft: false
 tags: [art]
 categories: [art]
@@ -21,13 +21,10 @@ ShowPostNavLinks: true
 hiddenInHomeList: true
 hiddenFromRss: false
 cover:
-  image: "skull_floor.png"
+  image: "frank_wallpaper.gif"
   hiddenInSingle: true
   hiddenInList: false
 ---
 ___
 
-_Click to expand_
-
-{{< gallery match="skull_floor.png" sortOrder="desc" rowHeight="150" margins="5" thumbnailResizeOptions="800x800 q100 Lanczos" embedPreview=true loadJQuery=true >}}
-___
+![frank_wallpaper.gif](frank_wallpaper.gif)

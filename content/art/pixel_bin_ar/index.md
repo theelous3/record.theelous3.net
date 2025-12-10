@@ -1,5 +1,5 @@
 ---
-title: "Pixel_bin_ar"
+title: "Outside the Lord Edward at Midnight"
 date: 2024-01-03T21:35:40Z
 draft: false
 tags: [art]

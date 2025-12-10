@@ -1,5 +1,5 @@
 ---
-title: "Sloog_face"
+title: "PL"
 date: 2023-05-01T12:20:30Z
 draft: false
 tags: [art]
