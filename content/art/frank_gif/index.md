@@ -24,6 +24,7 @@ cover:
   image: "frank_wallpaper.gif"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

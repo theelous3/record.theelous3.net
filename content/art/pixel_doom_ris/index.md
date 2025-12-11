@@ -24,6 +24,7 @@ cover:
   image: "doom_space.gif"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

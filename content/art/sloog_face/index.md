@@ -24,6 +24,7 @@ cover:
   image: "sloog_print.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

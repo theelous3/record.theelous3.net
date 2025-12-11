@@ -24,6 +24,7 @@ cover:
   image: "bin256_AR.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

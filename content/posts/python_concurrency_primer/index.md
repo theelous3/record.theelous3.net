@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "multi_thread_processing1.png"
   hiddenInSingle: false
+  relative: true
 ---
 
 ## Some Terminology

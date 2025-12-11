@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "red_blue_widgets"
   hiddenInSingle: true
+  relative: true
 ---
 Let's say you wanted to design a useful little machine called a widget, and start producing them in a range of colours. First thing you'd do is design a blueprint. In Python, writing a class is much like writing a blueprint for something. Let's write our widget!
 

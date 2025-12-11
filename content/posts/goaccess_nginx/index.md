@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "x.png"
   hiddenInSingle: false
+  relative: true
 ---
 
 Setting up live goaccess behind a reverse proxy has an arcane and stupid trick.

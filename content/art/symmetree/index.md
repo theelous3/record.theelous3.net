@@ -24,6 +24,7 @@ cover:
   image: "3.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 I discovered a weird phenomena where if you look up at the sky through some bare branch trees, take a picture, and mirror it along the center - you can pretty much always find some sort of creepy religious figure. Like a bishop. Or an alien. I've never been religious but maybe this is that elusive generational trauma memory? lol
 ___

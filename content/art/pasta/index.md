@@ -24,6 +24,7 @@ cover:
   image: "IMG20250826214029.jpg"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

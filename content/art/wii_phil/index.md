@@ -24,6 +24,7 @@ cover:
   image: "Wii.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

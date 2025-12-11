@@ -23,6 +23,7 @@ cover:
   image: "deltavee_system_detailed_4k.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

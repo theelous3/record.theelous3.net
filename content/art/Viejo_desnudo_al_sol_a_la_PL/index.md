@@ -24,6 +24,7 @@ cover:
   image: "Viejo_desnudo_al_sol_a_la_PL.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

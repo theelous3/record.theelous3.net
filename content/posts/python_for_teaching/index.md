@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "ram_list.png"
   hiddenInSingle: false
+  relative: true
 ---
 
 ### Teach one thing at a time.

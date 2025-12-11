@@ -24,6 +24,7 @@ cover:
   image: "2damoon.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

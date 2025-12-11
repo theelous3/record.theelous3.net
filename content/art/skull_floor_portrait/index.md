@@ -24,6 +24,7 @@ cover:
   image: "skull_floor.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

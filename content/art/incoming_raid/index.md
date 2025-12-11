@@ -24,6 +24,7 @@ cover:
   image: "incoming_raid.gif"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

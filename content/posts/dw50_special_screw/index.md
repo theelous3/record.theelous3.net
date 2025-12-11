@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "ss1.png"
   hiddenInSingle: true
+  relative: true
 ---
 The dewalt dw50, dw55, and dw1150 (and presumably more) machines have an enigmatic "special adjusting screw" with which you can adjust the height of the blades in the cutter block to the correct height.
 

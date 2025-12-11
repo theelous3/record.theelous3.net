@@ -24,6 +24,7 @@ cover:
   image: "4.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

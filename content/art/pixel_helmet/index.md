@@ -24,6 +24,7 @@ cover:
   image: "helmet.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

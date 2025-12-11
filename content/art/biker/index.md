@@ -24,6 +24,7 @@ cover:
   image: "biker.gif"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

@@ -21,6 +21,7 @@ ShowPostNavLinks: true
 cover:
   image: "cover.png"
   hiddenInSingle: false
+  relative: true
 ---
 
 Last updated: 2025/12/05

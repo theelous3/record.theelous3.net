@@ -24,6 +24,7 @@ cover:
   image: "HPEpq3x.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 

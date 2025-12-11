@@ -24,6 +24,7 @@ cover:
   image: "xpixel_vehicles_1.png"
   hiddenInSingle: true
   hiddenInList: false
+  relative: true
 ---
 ___
 
