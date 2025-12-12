@@ -21,4 +21,5 @@ ShowPostNavLinks: true
 cover:
   image: ""
   hiddenInSingle: false
+  relative: true
 ---
