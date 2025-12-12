@@ -93,7 +93,7 @@ params:
 
    # \____________________________________________________________________________
 
-  #  _This site uses hatsu to feed the fediverse - you can activitypub sub to any feed you like the look of._
+  #  _This feeds the fediverse - you can follow me @theelous3@g2s.theelous3.net on mastodon or w/e._
 
   socialIcons:
     - name: matrix
@@ -104,6 +104,8 @@ params:
       url: "https://github.com/theelous3"
     - name: kofi
       url: https://ko-fi.com/theelous3
+    - name: mastodon
+      url: https://mastodon.social/@theelous3@g2s.theelous3.net
   sharebuttons:
     - x
     - whatsapp
@@ -111,6 +113,7 @@ params:
     - instagram
     - ycombinator
     - reddit
+    - mastodon
 
   analytics:
     google:
