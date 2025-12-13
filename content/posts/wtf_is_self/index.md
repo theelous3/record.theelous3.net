@@ -19,7 +19,7 @@ ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
-  image: "red_blue_widgets"
+  image: "red_blue_widgets.png"
   hiddenInSingle: true
   relative: true
 ---
@@ -73,7 +73,7 @@ class Widget:
 "I'm a blue widget :)"
 ```
 
-![red and blue widgets](red_blue_widgets.png)
+![red and blue widgets](.png.png)
 
 Here we can see that an instance of a widget is able to refer to parts of its self, using self. When a widget looks up `self.colour` it looks up **its own individual colour**. We can see the blue widget is aware it is blue, and the red aware it is red. These are completely independent objects with their own ideas of self.
 
