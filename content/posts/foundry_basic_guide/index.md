@@ -325,6 +325,8 @@ Paste this in to vim (typically right click pastes in terminals):
 
         server_name yourdomain.com;  # or foundry.yourdomain.com
 
+        client_max_body_size 200M;
+
         location / {
             proxy_pass http://localhost:30000/;
             proxy_http_version 1.1;
@@ -339,6 +341,8 @@ Paste this in to vim (typically right click pastes in terminals):
 ```
 
 Save and exit `esc` -> `:wq`
+
+We set the max size of any individual file to 200mb. If for some reason you need bigger files - first consider the source of your files might suck, and then consider increasing it.
 
 Enable the site config
 
